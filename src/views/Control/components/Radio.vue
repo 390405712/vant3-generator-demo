@@ -7,7 +7,6 @@
 
 <script lang="tsx" setup>
 import { FormGenerator } from 'vant3-generator'
-import { Button } from 'vant'
 import type { FormOption } from 'vant3-generator/lib/type'
 import { ref } from 'vue'
 

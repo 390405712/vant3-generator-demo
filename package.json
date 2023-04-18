@@ -1,6 +1,6 @@
 {
   "name": "vant3-generator-demo",
-  "version": "0.0.1",
+  "version": "1.0.4",
   "scripts": {
     "dev": "vite --host --mode dev --force",
     "build:dev": "vite build --mode dev",
@@ -14,7 +14,7 @@
     "pinia": "^2.0.2",
     "react": "^18.2.0",
     "vant": "3.6.11",
-    "vant3-generator": "^1.0.1",
+    "vant3-generator": "^1.0.4",
     "vue": "^3.2.3",
     "vue-router": "^4.0.4",
     "vue3-json-viewer": "^2.2.2"

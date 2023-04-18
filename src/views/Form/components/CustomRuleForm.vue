@@ -20,15 +20,6 @@ import { Button } from 'vant';
 let RefFormGenerator = ref<RefFormGenerator>()
 let form = ref({})
 
-const checkIphoneNum = (value: any) => {
-  console.log(value);
-  if (!value) return Promise.reject('请输入手机号')
-  if (!/^(?:(?:\+|00)86)?1[3-9]\d{9}$/.test(value)) {
-    return Promise.reject('手机格式有误')
-  }
-  return Promise.resolve(true)
-}
-
 let formOption = ref<FormOption[]>([
   {
     type: 'field',

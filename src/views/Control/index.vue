@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <Cell is-link :title="activeName" @click="show = true" />
     <ActionSheet position="top" v-model:show="show" :actions="tabs" @select="onSelect" close-on-click-action />
     <component :is="Com[activeName]"></component>
@@ -48,9 +48,3 @@ const tabs = Object.keys(Com).reduce((arr, item) => {
 }, [])
 
 </script>
-<style lang="scss" scoped>
-.container {
-  // padding: 20px;
-  // box-sizing: border-box;
-}
-</style>
