@@ -36,7 +36,7 @@ const Com: Record<string, DefineComponent<any, any, any>> = {
   '文件上传': Uploader,
   '自定义插槽': Slot,
 }
-let activeName = $ref('输入框')
+let activeName = $ref('级联选择')
 let show = $ref(false)
 const onSelect = (item) => {
   activeName = item.name

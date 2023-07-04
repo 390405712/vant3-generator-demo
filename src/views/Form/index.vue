@@ -9,13 +9,6 @@
 import TypicalForm from './components/TypicalForm.vue'
 import RuleForm from './components/RuleForm.vue'
 import CustomRuleForm from './components/CustomRuleForm.vue'
-
-// import { FormGenerator } from '@/../../vant3-generator'
-// import type { FormOption } from '@/../../vant3-generator/lib/type'
-
-// import { FormGenerator } from 'vant3-generator'
-// import type { FormOption } from 'vant3-generator/lib/type'
-
 import { DefineComponent } from 'vue'
 import { Cell, ActionSheet } from 'vant'
 
