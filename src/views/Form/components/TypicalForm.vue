@@ -15,7 +15,21 @@ import { Rate, Slider } from 'vant';
 
 const RefFormGenerator = ref<RefFormGenerator>()
 const formAttrs = ref<FormAttrs>({
-  model: {},
+  model: {
+    key2: 1,
+    key7: "2020-01-01",
+    key1: "1",
+    key3: "330000",
+    key5: [
+      "2"
+    ],
+    key4: "2",
+    key6: true,
+    key8: "2023-7-5",
+    key9: "330100",
+    key11: 5,
+    key12: 27
+  },
   formOption: [
     {
       type: 'field',
